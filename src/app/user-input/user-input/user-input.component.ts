@@ -21,7 +21,7 @@ export class UserInputComponent {
       initialInvestment: +this.userInitialInvestment(),
       annualInvestment: +this.userAnnualInvestment(),
       expectedReturn: +this.userExpectedReturn(),
-      duration: +this.userDuration(),
+      duration: +this.userDuration()
     });
 
     this.userInitialInvestment.set('0');
